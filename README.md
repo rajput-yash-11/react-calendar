@@ -1,11 +1,19 @@
 # react-calendar
 
-Reusable React calendar component built with TypeScript, featuring date highlighting and component tests.
+Reusable React calendar component built with TypeScript.
 
 ## Overview
 
-This project implements a reusable `<Calendar />` component that renders a monthly calendar based on a given `Date` prop.  
-The component highlights the provided date and aligns days correctly starting from Sunday.
+This project provides a reusable `<Calendar />` component that renders a monthly calendar based on a given `Date` prop.  
+The calendar highlights the provided date and displays weeks starting from Sunday.
+
+## Features
+
+- Displays correct month and year
+- Week starts from Sunday
+- Highlights the selected date
+- Stateless and reusable component
+- Covered with unit tests
 
 ## Tech Stack
 
@@ -15,6 +23,8 @@ The component highlights the provided date and aligns days correctly starting fr
 - Jest & React Testing Library
 
 ## Setup
+
+Install dependencies and start the app:
 
 ```bash
 npm install

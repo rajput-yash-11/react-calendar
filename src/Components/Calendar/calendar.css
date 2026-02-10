@@ -1,0 +1,44 @@
+.calendar {
+  width: 280px;
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-family: sans-serif;
+  background-color: antiquewhite;
+  border-radius: 2rem;
+}
+
+.calendar-header {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.calendar-weekdays,
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-weekday {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.calendar-cell {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar-cell.selected {
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.calendar-cell.empty {
+  background: transparent;
+}
